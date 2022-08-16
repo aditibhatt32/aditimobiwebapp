@@ -1,9 +1,9 @@
 version: '3.8'
 services:
-  ashuwebapp:
-    image: ashumobiweb:appv1
+  aditiwebapp:
+    image: aditimobiweb:appv1
     build: .
-    container_name: ashuwebc1
+    container_name: aditiwebc1
     ports:
       - 4444:80 
     restart: always 
